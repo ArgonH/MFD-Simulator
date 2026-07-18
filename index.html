@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="de">
+
+<head>
+    <meta charset="UTF-8">
+    <title>MFD</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+<div id="container">
+
+    <div id="cockpit">
+
+        <!-- Cockpit Hintergrund -->
+        <img id="cockpitImage" src="images/cockpit.png">
+
+
+        <!-- Aktuelle MFD Seite -->
+        <img id="display" src="images/engine.png">
+
+
+        <!-- MFD Buttons -->
+
+        <button class="btn warning" 
+                onclick="setPage('images/warning.png')">
+        </button>
+
+        <button class="btn engine" 
+                onclick="setPage('images/engine.png')">
+        </button>
+
+        <button class="btn fuel" 
+                onclick="setPage('images/fuel.png')">
+        </button>
+
+        <button class="btn electric" 
+                onclick="setPage('images/electric.png')">
+        </button>
+
+        <button class="btn radar" 
+                onclick="setPage('images/radar.png')">
+        </button>
+
+        <button class="btn text" 
+                onclick="setPage('images/text.png')">
+        </button>
+
+
+    </div>
+
+</div>
+
+
+<script src="script.js"></script>
+
+</body>
+
+</html>
